@@ -25,6 +25,12 @@ Rota Dinâmica (Navegação de Produto): Planejada especificamente para a vitrin
 
 
 <img width="250" height="300" alt="design responsivo copo de açaí" src="https://github.com/user-attachments/assets/14cb6f4d-ec06-4726-aeaf-1091f38e0c24" />
+<p> </p>
+
 <img width="250" height="300" alt="design responsivo produtos" src="https://github.com/user-attachments/assets/bf5642e0-cfea-4972-b894-e40ebc1d6449" />
+<p> </p>
+
 <img width="800" height="432" alt="wireframe dos produtos" src="https://github.com/user-attachments/assets/33d74d52-f4d2-4213-b400-1693b13f511d" />
+<p> </p>
+
 <img width="800" height="432" alt="wirerame copo de açaí" src="https://github.com/user-attachments/assets/24d95cb8-3d89-4f18-adc3-bf9beeaf235f" />

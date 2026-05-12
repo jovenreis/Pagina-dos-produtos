@@ -1,0 +1,34 @@
+.about {
+  background: white;
+  padding: 32px;
+  margin: 30px 20px;
+  border-radius: 24px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.about h2 {
+  color: #6a1b4d;
+  margin-bottom: 15px;
+}
+
+.about hr {
+  margin-bottom: 20px;
+}
+
+.about p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.about button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 999px;
+  background: #6a1b4d;
+  color: white;
+  cursor: pointer;
+}
+
+.about button:hover {
+  opacity: 0.9;
+}

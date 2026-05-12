@@ -1,0 +1,30 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #6a1b4d;
+}
+
+.hero p {
+  margin: 20px 0;
+}
+
+.hero button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 999px;
+  background: purple;
+  color: white;
+  cursor: pointer;
+}
+
+.hero img {
+  width: 100%;
+  border-radius: 20px;
+}

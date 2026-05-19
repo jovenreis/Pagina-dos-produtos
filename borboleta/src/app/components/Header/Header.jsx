@@ -1,4 +1,5 @@
 import styles from "./Header.module.css";
+import Link from "next/link"; 
 
 export default function Header() {
   return (
@@ -6,10 +7,18 @@ export default function Header() {
       <img src="img/logo.jpg" alt="logo" />
 
       <ul>
-        <li>HOME</li>
-        <li>PRODUTOS</li>
-        <li>SOBRE</li>
-        <li>CONTATO</li>
+        <li>
+          <Link href="/">HOME</Link>
+        </li>
+        <li>
+          <Link href="/#produtos">PRODUTOS</Link> 
+        </li>
+        <li>
+          <Link href="/#sobre">SOBRE</Link>
+        </li>
+        <li>
+          <Link href="/contato">CONTATO</Link>
+        </li>
       </ul>
     </header>
   );

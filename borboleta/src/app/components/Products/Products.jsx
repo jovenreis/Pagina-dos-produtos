@@ -1,21 +1,25 @@
 import styles from "./Products.module.css";
+import Link from "next/link"; 
 
-export default function Products({ comprar }) {
+export default function Products() {
   const produtos = [
     {
       nome: "Copo de 300ml",
       preco: "R$ 13.90",
       imagem: "img/copo300ml.png",
+      slug: "copo-300ml", 
     },
     {
       nome: "Copo de 400ml",
       preco: "R$ 15.90",
       imagem: "img/copo400ml.png",
+      slug: "copo-400ml", 
     },
     {
       nome: "Copo de 500ml",
       preco: "R$ 18.00",
       imagem: "img/copo500ml.png",
+      slug: "copo-500ml", 
     },
   ];
 
@@ -37,9 +41,11 @@ export default function Products({ comprar }) {
 
             <p>{produto.preco}</p>
 
-            <button onClick={() => comprar(produto.nome)}>
-              COMPRAR
-            </button>
+            <Link href={`/produtos/${produto.slug}`} style={{ textDecoration: 'none', width: '100%' }}>
+              <button style={{ width: '100%' }}>
+                MONTAR COPO
+              </button>
+            </Link>
           </article>
         ))}
       </section>

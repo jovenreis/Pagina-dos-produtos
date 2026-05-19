@@ -13,7 +13,7 @@ export default function Hero() {
         <button>Menu Completo</button>
       </div>
 
-      <img src="img/barca.png" alt="barca" />
+      <img src="img/barca.jpg" alt="barca" />
     </section>
   );
 }

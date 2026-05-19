@@ -5,17 +5,17 @@ export default function Products({ comprar }) {
     {
       nome: "Copo de 300ml",
       preco: "R$ 13.90",
-      imagem: "img/copo300ml.png",
+      imagem: "img/copos.jpg",
     },
     {
       nome: "Copo de 400ml",
       preco: "R$ 15.90",
-      imagem: "img/copo400ml.png",
+      imagem: "img/copos.jpg",
     },
     {
       nome: "Copo de 500ml",
       preco: "R$ 18.00",
-      imagem: "img/copo500ml.png",
+      imagem: "img/copos.jpg",
     },
   ];
 

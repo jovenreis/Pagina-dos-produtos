@@ -1,6 +1,5 @@
-# Açaí Itaki - Projeto Web
+Açaí Itaki - Projeto Web
 
-### 👥 Alunos
 * **Henry Reis** - 10752725
 * **Bruno Magalhães** - 10752758
 * **Luiz Prado** - 10738516
@@ -8,7 +7,7 @@
 
 ---
 
-## 📐 Planejamento de Interface: Wireframes Açaí Itaki
+##  Planejamento de Interface: Wireframes Açaí Itaki
 
 ### 1. Metodologia de Desenho Manual
 A fase de desenhos foi feita à mão para permitir uma visualização rápida de onde cada coisa ficaria no site. O objetivo foi testar o caminho que o cliente faz na tela antes de começar a criar o código de verdade.
@@ -30,7 +29,7 @@ Durante os desenhos no papel, definimos duas formas diferentes de abrir as pági
 
 ---
 
-## 🚀 5. O Que Foi Feito no Site (Atualização de Hoje)
+## 5. O Que Foi Feito no Site (Atualização de Hoje)
 
 Na etapa atual do projeto, tiramos as ideias do papel e colocamos para funcionar no site do Açaí Itaki. Organizamos o sistema dividindo o visual da loja e as informações dos produtos em duas partes separadas.
 
@@ -51,7 +50,7 @@ Para não deixar os preços e fotos dos copos presos e escondidos no meio do có
 
 ---
 
-## 🖼️ Galeria de Desenhos (Wireframes)
+## Galeria de Desenhos (Wireframes)
 
 <img width="250" height="300" alt="design responsivo copo de açaí" src="https://github.com/user-attachments/assets/14cb6f4d-ec06-4726-aeaf-1091f38e0c24" />
 <p> </p>

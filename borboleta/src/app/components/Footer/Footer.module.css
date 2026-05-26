@@ -22,6 +22,7 @@
 .footer p {
   display: block;
   margin-bottom: 10px;
+  color: #1a1a1a;
 }
 
 @media (max-width: 768px) {

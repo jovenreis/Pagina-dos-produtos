@@ -1,24 +1,34 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import styles from "./Products.module.css";
-import Link from "next/link"; 
+import Link from "next/link";
 
 export default function Products() {
-  const produtos = [
-    {
-      nome: "Copo de 300ml",
-      preco: "R$ 13.90",
-      imagem: "img/copos.jpg",
-    },
-    {
-      nome: "Copo de 400ml",
-      preco: "R$ 15.90",
-      imagem: "img/copos.jpg",
-    },
-    {
-      nome: "Copo de 500ml",
-      preco: "R$ 18.00",
-      imagem: "img/copos.jpg",
-    },
-  ];
+  const [produtos, setProdutos] = useState([]);
+  const [carregando, setCarregando] = useState(true);
+
+  useEffect(() => {
+    fetch("/api/produtos")
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error("Erro ao buscar os produtos da API");
+        }
+        return res.json();
+      })
+      .then((data) => {
+        setProdutos(data);
+        setCarregando(false);
+      })
+      .catch((err) => {
+        console.error(err);
+        setCarregando(false);
+      });
+  }, []);
+
+  if (carregando) {
+    return <p style={{ textAlign: "center", padding: "20px" }}>Carregando cardápio...</p>;
+  }
 
   return (
     <>
@@ -36,9 +46,14 @@ export default function Products() {
 
             <hr />
 
-            <p>{produto.preco}</p>
+            <p>
+              {produto.precoBase.toLocaleString("pt-BR", {
+                style: "currency",
+                currency: "BRL",
+              })}
+            </p>
 
-            <Link href={`/produtos/${produto.slug}`} style={{ textDecoration: 'none', width: '100%' }}>
+            <Link href={`/produtos/${produto.id}`} style={{ textDecoration: 'none', width: '100%' }}>
               <button style={{ width: '100%' }}>
                 MONTAR COPO
               </button>
